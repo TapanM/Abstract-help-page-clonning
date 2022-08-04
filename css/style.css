@@ -199,9 +199,7 @@ footer{
 .ft-main{
     display: flex;
    flex-wrap: wrap;
-   height: 20rem;
-   padding: 3rem  4rem;
-   
+   padding: 3rem  4rem 0 4rem;
 }
 .ft-main .col{
     /* border: 2px solid red; */
@@ -227,8 +225,28 @@ footer{
 /* /Main Footer Styling */
 
 /* legal section styling */
+.legal-section{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4rem;
+}
+
 .legal-section #logo{
     position: relative;
+    font-size: 2rem;
+    left: 68;
+    top: -41;
 }
+
+.legal-section .legal-list{
+    font-size: 1.1rem;
+    padding: 1.5rem  2rem 4rem 2rem ;
+}
+
+.legal-section .legal-list li a{
+    text-decoration: none;
+    color: var(--clr-white);
+}
+
 
 /* /legal section styling */
