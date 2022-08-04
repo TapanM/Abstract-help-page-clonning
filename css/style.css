@@ -191,3 +191,44 @@
 }
 
 /* /gallery styling */
+
+/* Main Footer Styling */
+footer{
+    background-color: var(--clr-black);
+}
+.ft-main{
+    display: flex;
+   flex-wrap: wrap;
+   height: 20rem;
+   padding: 3rem  4rem;
+   
+}
+.ft-main .col{
+    /* border: 2px solid red; */
+    width: 18rem;
+}
+.ft-main .col ul{
+    list-style-type: none;
+}
+.ft-main .col .ft-title{
+    color: var(--clr-white);
+    padding-bottom: 1.2rem;
+}
+.ft-main .col ul li a{
+    color: var(--clr-white);
+    text-decoration: none;
+    padding: 4px 0;
+}
+
+.ft-main h4{
+    padding-top: 2rem;
+}
+
+/* /Main Footer Styling */
+
+/* legal section styling */
+.legal-section #logo{
+    position: relative;
+}
+
+/* /legal section styling */
